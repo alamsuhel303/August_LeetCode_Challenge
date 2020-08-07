@@ -42,9 +42,7 @@ class Solution {
         	slow=nums[slow];
         	fast=nums[fast];
         	ans.add(nums[slow]);
-        	System.out.println("slow at "+ slow);
         	nums[slow]=0;
-        	findDuplicates(nums);
         	
         }
         
